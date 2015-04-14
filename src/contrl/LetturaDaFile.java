@@ -12,6 +12,7 @@ public class LetturaDaFile {
 
     
     public static void main(String[] args) throws Exception  {
+        System.out.println("Sono la versione SET");
     
     HashSetControl controllo = new HashSetControl();
         System.out.println("Numero di parole diverse: "+controllo.LeggiHashSet());
